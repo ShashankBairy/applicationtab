@@ -1,0 +1,92 @@
+.distribute_tab_form_graph{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.distribute_tab_form{
+    width: 74%;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.distribute_tab_graph{
+    width: 24%;
+    background-color: #FFF;
+}
+.distribute_tab_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.distribute_content_top{
+    display: flex;
+    width: 100%;
+}
+
+.distribute_tab_top_left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.distribute_content_heading{
+    width: 100%;
+}
+
+.distribute_content_heading .heading{
+    color: #393939;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.distribute_content_heading .sub{
+    color: #575757;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nav{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_bar{
+    list-style: none;
+    display: flex;
+    background:#F7F7F7;
+  border-radius: 30px;
+}
+
+.nav_link{
+    display: block;
+    text-decoration: none;
+    padding: 6px 16px;
+    color: #616161;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+.nav_link.active{
+    color: #FFF;
+     font-size: 14px;
+     background: #3425FF;
+}
+
+.distribute_nav_content{
+  padding: 41px 50px 57px 50px;
+}
+
+.distribute_tab_table{
+    width: 100%;
+}
+
+.distribute_button{
+    position: fixed;
+    top: 64px;
+    right: 20px;
+}

@@ -1,0 +1,126 @@
+.application_module{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.application_module_top{
+    background-image: url("../../assets/Frame\ 1171277359.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.application_module_heading{
+    gap: 5px;
+}
+
+.application_heading{
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.application_sub{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.application_module_searchbox{
+    position: relative;
+}
+
+.application_search_icon{
+    position: absolute;
+    top:8px;
+    left: 13px;
+}
+
+.application_module_searchbox input{
+    width: 331px;
+    padding: 10px 13px 10px 38px;
+    border-radius: 31px;
+    border: 1px solid #DCDCDC;
+}
+
+
+.application_module_nav_tabs ul{
+    /* flex-direction: row; */
+    display: inline-flex;
+    padding: 4px;
+    gap: 2px;
+    border-radius: 8px;
+    border: 1px solid #D2D2D2;
+    background: #F7F7F7
+
+}
+
+.application_module_nav_tabs ul li .nav-link{
+    padding: 9px 16px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.application_module_nav_tabs ul li .nav-link.active{
+    color: #FFF;
+    border-radius: 6px;
+    background: #3425FF;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+
+.application_module_nav_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav_bar{
+    display: inline-flex;
+    list-style: none;
+    padding: 4px;
+    border-radius: 8px;
+border: 1px solid #D2D2D2;
+
+background: #F7F7F7;
+}
+
+.nav_link{
+    text-decoration: none;
+    display: block; 
+    padding: 9px 16px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav_link.active{
+    background-color:#3425FF;
+    color: #FFF;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.nav_top{
+    position: fixed;
+    top:64px;
+    left: 250px;
+    z-index: 1;
+}
+
+.application_module_nav_content_2{
+    margin-top: 60px;
+}
+
+
