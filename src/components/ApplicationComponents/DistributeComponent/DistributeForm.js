@@ -289,6 +289,7 @@ const DistributeForm = ({
               type="submit"
               buttonname={buttonLabel}
               lefticon={rightarrow}
+              margin={"0 auto"}
             />
           </div>
         </Form>

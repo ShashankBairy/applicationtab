@@ -89,4 +89,5 @@
     position: fixed;
     top: 64px;
     right: 20px;
+    z-index: 1;
 }

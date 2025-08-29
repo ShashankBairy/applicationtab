@@ -1,43 +1,35 @@
+.button_wrapper {
+  display: block;
+}
 
-button[type="submit"] {
+.button_wrapper button {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #3425ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 4px;
+}
+
+.button_wrapper button[type="submit"] {
   padding: 8px 34px;
-  background-color: #3425FF;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 12px;
-  margin: 0px auto;
-  font-weight: 600;
-  gap: 4px;
 }
 
-button[type="button"]{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.button_wrapper button[type="button"] {
   padding: 8px 12px;
-  background-color: #3425FF;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 12px;
-  margin: 0px auto;
-  font-weight: 600;
-  gap: 4px;
 }
-
 
 button:hover {
   opacity: 0.9;
 }
 
 .disabled {
-  color: rgba(52, 37, 255, 0.50) !important;
-  background: #F6F8FA  !important;
+  color: rgba(52, 37, 255, 0.5) !important;
+  background: #f6f8fa !important;
   cursor: not-allowed !important;
 }

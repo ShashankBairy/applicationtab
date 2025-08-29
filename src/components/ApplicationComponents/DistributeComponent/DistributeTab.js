@@ -56,6 +56,7 @@ const DistributeTab = () => {
             type={"button"}
             righticon={plusicon}
             onClick={handleDistributeButton}
+            margin={"0"}
           />
         </div>
       )}
